@@ -1,0 +1,25 @@
+extends  components/layout
+block content
+	.page(style="padding:15px")
+		.quote
+			i.iconfont.icon-Artboard1
+			!= timeline.quote
+			i.iconfont.icon-Artboard
+		.is-container
+		.btn-group
+			input.button.more(type="button" value="加载更多")
+append csses
+	link(rel="stylesheet" href=`${link.cdn}/css/speaker.css`)
+	title 更新日志 - #{head.title}
+	
+block append scripts
+	script(src="https://cdn.jsdelivr.net/npm/marked/marked.min.js")
+	script(src=`${link.cdn}/js/Speak.js`)
+	script.
+		new Speak({
+			per_page: #{timeline.per_page},
+			owner: '#{timeline.owner}',
+			repo: '#{timeline.repo}',
+			defaultLabelName: '#{timeline.defaultLabelName}',
+			defaultLabelColor: '#{timeline.defaultLabelColor}',
+		});
