@@ -52,6 +52,8 @@
 			addLine("Available command list:");
 			addLine("<span class='success'>lete</span>  // open lete's home");
 			addLine("<span class='success'>blog</span>  // open xiaokang's blog");
+			addLine("<span class='success'>skill</span>  // see xiaokang's skill");
+			addLine("<span class='success'>source</span>  // see my site source");
 		},
 		lete: function () {
 			execCommand('open https://www.lete114.top/')
@@ -65,6 +67,9 @@
 			addLine("<span class='warning'>B</span> :  Node.JS 70/100 ");
 			addLine("<span class='contact'>C</span> :  CSS -999/100 ");
 		},
+		source:function (){
+			execCommand('open https://github.com/sviptzk/HomePage')
+		},
 		open: function (command) {
 			if (command.length >= 2) {
 				window.open(command[1], '_blank').location;
@@ -74,7 +79,5 @@
 				addLine("<span class='error'>Error</span>  请输入打开的地址！");
 			}
 		}
-
-
 	}
 })()
