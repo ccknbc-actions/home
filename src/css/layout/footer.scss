@@ -1,0 +1,36 @@
+#footer {
+	/* position: absolute;
+	bottom: 0;
+	margin: auto 0; */
+	width: 100%;
+	.site-info {
+		text-align: center;
+
+		a {
+			-webkit-transition: color 0.3s ease-out;
+			transition: color 0.3s ease-out;
+
+			&:hover {
+				color: #b854d4;
+			}
+		}
+		
+		.icon-heart {
+			margin-left: 5px;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#footer .site-info {
+		padding-bottom: 6px;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#footer .site-info {
+		padding-bottom: 4px;
+		font-size: 14px;
+	}
+}

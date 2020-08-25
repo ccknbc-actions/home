@@ -1,0 +1,12 @@
+head
+	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1.0")
+	meta(itemprop="name" content=`${head.name}`)
+	meta(itemprop="image" content=`${head.image}`)
+	meta(name="keywords" content=`${head.keywords}`)
+	meta(name="description" itemprop="description" content=`${head.description}`)
+	link(rel="shortcut icon" href=`${head.favicon}`)
+	link(rel="stylesheet" href=`${link.cdn}/css/style.css`)
+	block csses
+	!= index.customCSS
+	
