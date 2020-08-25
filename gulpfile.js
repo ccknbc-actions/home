@@ -54,8 +54,14 @@ gulp.task("pug", function () {
 gulp.task("assets", function () {
 	return gulp.src(["./src/assets/**/*"]).pipe(gulp.dest("./dist/assets"));
 });
+gulp.task("staticHtml", function () {
+	return gulp.src(["./src/*.html"]).pipe(gulp.dest("./dist"));
+});
 
-gulp.task("build", gulp.series("clean", "assets", "pug", "css", "js", "html"));
+gulp.task(
+	"build",
+	gulp.series("clean", "assets", "staticHtml", "pug", "css", "js", "html")
+);
 gulp.task("default", gulp.series("build"));
 
 gulp.task("watch", function () {

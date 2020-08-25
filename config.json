@@ -9,7 +9,7 @@
 	},
 	"link":{
 		"cdn_":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@v2.1.1/www",
-		"cdn": " "
+		"cdn": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@v2.2.0/www"
 	},
 	"index":{
 		"name":"Dreamy.TZK",
@@ -35,17 +35,18 @@
 				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/safari.svg"
 			},
 			{
+				"name":"关于",
+				"link":"/about.html",
+				"out": 0,
+				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/about.svg"
+			},
+			{
 				"name":"博客",
 				"link":"https://www.antmoe.com/",
 				"out": 1,
 				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/blog.svg"
 			},
-			{
-				"name":"QQ",
-				"link":"https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/pay/qq.jpg",
-				"out": 1,
-				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/qq.svg"
-			},
+			
 			{
 				"name":"微信",
 				"link":"https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/pay/wechat.jpg",
