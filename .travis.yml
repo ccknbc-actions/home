@@ -10,10 +10,10 @@ cache:
 
 # S: Build Lifecycle
 install:
-  - npm install
+  - yarn install
 
 script:
-  - npm run build
+  - yarn run build
   - cd ./dist
   - git init
   - git config user.name "${GIT_NAME}"
@@ -22,4 +22,3 @@ script:
   - git commit -m "Update"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
   - git push --force --quiet "https://${CDT_TOKEN}@${CDT_REF}" master:master
-

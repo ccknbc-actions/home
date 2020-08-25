@@ -57,6 +57,8 @@ script:
   - git push --force --quiet "https://${CDT_TOKEN}@${CDT_REF}" master:master
 ```
 
+关于上述代码的6个变量不知如何获取请参考：[非教程，仅供参考](https://www.antmoe.com/posts/b7924c1d/index.html)
+
 ## 功能特性
 
 1. 使用 `scss` 作为 `css` 预处理器
