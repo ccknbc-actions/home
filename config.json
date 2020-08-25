@@ -121,6 +121,10 @@
 			}
 		]
 	},
+	"about": {
+		"quote": "想要了解小康么？",
+		"js": ""
+	},
 	"footer":{
 		"text":"Copyright ©️ 2020 Dreamy.TZK<p></p>CDN - <a rel='noopener noreferrer' target='_blank' href='https://www.jsdelivr.com'>jsDelivr</a> | HOST - <a rel='noopener noreferrer' target='_blank' href='https://www.coding.net'>CODING</a>"
 	},
