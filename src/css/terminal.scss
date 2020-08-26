@@ -46,9 +46,9 @@
 
 	.terminalWindow {
 		position: relative;
-		top: 0px;
-		left: 0px;
-		right: 0px;
+		top: 0;
+		left: 0;
+		right: 0;
 		overflow: auto;
 		z-index: 1;
 		margin-top: 10px;
@@ -56,7 +56,9 @@
 		text-align: left;
 		padding: 10px 10px;
 		background: #f6f8fa;
-		overflow: auto;
+		border-bottom: 1px solid;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 	}
 }
 
@@ -189,7 +191,7 @@
 
 .cssConsoleInput {
 	position: absolute;
-	left: 0px;
+	left: 0;
 	top: -30px;
 	opacity: 0;
 	filter: alpha(opacity = 0);
