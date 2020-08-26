@@ -48,8 +48,8 @@
 		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()}-${time.getDay()}</span> <span class="info">Email:</span><span> dreamytzk@outlook.com</span>`)
 		addLine(`<span class="success">Done</span><span> Myself introduction is over!</span>`)
 		addLine(`<span class="info">Tip</span><span> The weather in your city is as follows</span>`)
-		addLine('$ weater')
-		commands.weater()
+		addLine('$ weather')
+		commands.weather()
 	}
 	
 	var commands = {
@@ -75,7 +75,7 @@
 		source:function (){
 			execCommand('open https://github.com/sviptzk/HomePage')
 		},
-		weater:function (){
+		weather:function (){
 		return 	$.ajax({
 				url:'https://v1.alapi.cn/api/tianqi/now',
 				success:function (data){

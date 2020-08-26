@@ -1,5 +1,100 @@
-.markdown img {
-  max-width: 10%;
+.markdown{
+	p {
+		padding-left: 1rem;
+		margin-bottom: 10px;
+	}
+	img{
+		max-width: 10%;
+	}
+	ul, ol {
+		margin: 25px 16px 25px 62px;
+	}
+	ol code, p code, ul code {
+		padding: 2px 4px;
+		color: #b854d4;
+		font-size: 13px;
+		word-wrap: break-word;
+		border-radius: 3px;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+	a{
+	position: relative;
+	color: #b854d4;
+	
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1.5px;
+		background-color: #b854d4;
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+		-webkit-transform-origin: bottom right;
+		transform-origin: bottom right;
+		-webkit-transition: -webkit-transform .3s ease-out;
+		transition: -webkit-transform .3s ease-out;
+		transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+	}
+
+	&:hover {
+		&:after {
+			-webkit-transform-origin: bottom left;
+			transform-origin: bottom left;
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+
+		&:before {
+			opacity: 1;
+			-webkit-transform: scale(1) translateY(-100%);
+			transform: scale(1) translateY(-100%);
+		}
+	}
+
+	&:before {
+		content: "\e631  " attr(href);
+		position: absolute;
+		padding: 0 4px;
+		width: -webkit-max-content;
+		width: -moz-max-content;
+		width: max-content;
+		pointer-events: none;
+		font-family: iconfont;
+		font-size: 12px;
+		-webkit-box-shadow: 0 14px 38px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(0, 0, 0, 0.06);
+		box-shadow: 0 14px 38px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(0, 0, 0, 0.06);
+		border-radius: 3px;
+		background-color: #fff;
+		opacity: 0;
+		-webkit-transform: scale(0.7) translateY(-75%);
+		transform: scale(0.7) translateY(-75%);
+		-webkit-transform-origin: left center;
+		transform-origin: left center;
+		-webkit-transition: all .3s ease 0s;
+		transition: all 0.3s ease 0s;
+	}
+}
+}
+code {
+	width: 100%;
+	font-family: Fira Mono,"Noto Serif SC",-apple-system,Roboto,Helvetica Neue,sans-serif;
+	font-size: 400;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	text-align: left;
+	white-space: pre;
+	letter-spacing: 0;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 }
 
 /* 按钮 */
