@@ -188,5 +188,10 @@
 			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/055.jpg",
 			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/056.jpg"
 		]
-	}
+	},
+	"count": {
+	"enable": true,
+	"baidu": "189f5f93f988b5553385de571e6a76c0"
+}
+	
 }
