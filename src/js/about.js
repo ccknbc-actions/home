@@ -8,8 +8,8 @@
 		onEnter: function () {
 			addLine("$ " + $('#input').find('input').val());
 			execCommand($('#input').find('input').val());
-			$('#input').cssConsole('reset');
-			$('#input').find('input').focus();
+			$('#input').cssConsole('reset').find('input').focus();
+			// $('#input').find('input').focus();
 		}
 	});
 
@@ -26,6 +26,8 @@
 		style = typeof style !== 'undefined' ? style : '';
 		color = typeof color !== 'undefined' ? color : '';
 		$('.console').append('<p class="' + style + ' ' + color + '">' + input + '</p>');
+		$('html').scrollTop($('html')[0].scrollHeight);
+		$('.terminalWindow').scrollTop($('.terminalWindow')[0].scrollHeight);
 	}
 	function execCommand(command) {
 		command = command.split(' ')
@@ -45,8 +47,11 @@
 		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()}-${time.getDay()}</span> <span class="info">Address:</span><span> Hebei,China</span>`)
 		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()}-${time.getDay()}</span> <span class="info">Email:</span><span> dreamytzk@outlook.com</span>`)
 		addLine(`<span class="success">Done</span><span> Myself introduction is over!</span>`)
+		addLine(`<span class="info">Tip</span><span> The weather in your city is as follows</span>`)
+		addLine('$ weater')
+		commands.weater()
 	}
-	init()
+	
 	var commands = {
 		help: function () {
 			addLine("Available command list:");
@@ -62,13 +67,26 @@
 			execCommand('open https://www.antmoe.com/')
 		},
 		skill: function () {
-			addLine("<span class='warning'>B</span> :  Python 75/100 ");
-			addLine("<span class='warning'>B</span> :  JavaScript 70/100 ");
-			addLine("<span class='warning'>B</span> :  Node.JS 70/100 ");
-			addLine("<span class='contact'>C</span> :  CSS -999/100 ");
+			addLine("<span class='warning'>B</span> :  Python 65/100 ");
+			addLine("<span class='warning'>B</span> :  JavaScript 60/100 ");
+			addLine("<span class='warning'>B</span> :  Node.JS 60/100 ");
+			addLine("<span class='contact'>D</span> :  CSS -999/100 ");
 		},
 		source:function (){
 			execCommand('open https://github.com/sviptzk/HomePage')
+		},
+		weater:function (){
+		return 	$.ajax({
+				url:'https://v1.alapi.cn/api/tianqi/now',
+				success:function (data){
+					addLine(`*********************`)
+					addLine(`<span class='success'>City</span>  ${data.data.country} ${data.data.city}`);
+					addLine(`<span class='success'>Weater</span>  ${data.data.wea}`);
+					addLine(`<span class='success'>Win</span>  ${data.data.win}`);
+					addLine(`<span class='success'>Tip</span>  ${data.data.air_tips}`);
+					addLine(`*********************`)
+				}
+			})
 		},
 		open: function (command) {
 			if (command.length >= 2) {
@@ -80,4 +98,5 @@
 			}
 		}
 	}
+	init()
 })()
