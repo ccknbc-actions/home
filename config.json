@@ -1,67 +1,67 @@
 {
-	"head":{
-		"title":"小康的个人主页",
-		"description":"Dreamy.TZK",
-		"keywords":"小康博客,小康,个人博客,python,云原生应用,技术,学习,技术分享,学习笔记,前端,全栈,前端程序员,JavaScript",
-		"favicon":"https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/favicon.ico",
-		"name":"一个收藏回忆的地方",
-		"image":"https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg"
+	"head": {
+		"title": "小康的个人主页",
+		"description": "Dreamy.TZK",
+		"keywords": "小康博客,小康,个人博客,python,云原生应用,技术,学习,技术分享,学习笔记,前端,全栈,前端程序员,JavaScript",
+		"favicon": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/favicon.ico",
+		"name": "一个收藏回忆的地方",
+		"image": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg"
 	},
-	"link":{
-		"cdn_":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@b476538/www",
-		"cdn": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@b476538/www"
+	"link": {
+		"cdn_": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@dbf4fe3/www",
+		"cdn": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@dbf4fe3/www"
 	},
-	"index":{
-		"name":"Dreamy.TZK",
-		"description":"一条怀着梦想的咸鱼",
-		"link":"https://www.antmoe.com",
-		"menu":[
+	"index": {
+		"name": "Dreamy.TZK",
+		"description": "一条怀着梦想的咸鱼",
+		"link": "https://www.antmoe.com",
+		"menu": [
 			{
-				"name":"首页",
-				"link":"/",
+				"name": "首页",
+				"link": "/",
 				"out": 0,
-				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/home.svg"
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/home.svg"
 			},
 			{
-				"name":"说说",
-				"link":"/speak.html",
+				"name": "说说",
+				"link": "/speak.html",
 				"out": 0,
-				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/speak.svg"
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/speak.svg"
 			},
 			{
-				"name":"小站",
-				"link":"/link.html",
+				"name": "小站",
+				"link": "/link.html",
 				"out": 0,
-				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/safari.svg"
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/safari.svg"
 			},
 			{
-				"name":"关于",
-				"link":"/about.html",
+				"name": "关于",
+				"link": "/about.html",
 				"out": 0,
-				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/about.svg"
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/about.svg"
 			},
 			{
-				"name":"博客",
-				"link":"https://www.antmoe.com/",
+				"name": "博客",
+				"link": "https://www.antmoe.com/",
 				"out": 1,
-				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/blog.svg"
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/blog.svg"
 			},
-			
+
 			{
-				"name":"微信",
-				"link":"https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/pay/wechat.jpg",
+				"name": "微信",
+				"link": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/pay/wechat.jpg",
 				"out": 1,
-				"img":"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/wechat.svg"
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/wechat.svg"
 			}
 		],
-		"main":{
-			"avatar":"https://q1.qlogo.cn/g?b=qq&nk=535668586&s=0",
-			"quote":"世界并不完美，却因此而美丽",
-			"segment":[
+		"main": {
+			"avatar": "https://q1.qlogo.cn/g?b=qq&nk=535668586&s=0",
+			"quote": "世界并不完美，却因此而美丽",
+			"segment": [
 				{
-					"name":"关于",
-					"color":"rgb(245, 150, 170)",
-					"body":"<p>小康的新主页完成啦！站在巨人的肩膀上!</p>"
+					"name": "关于",
+					"color": "rgb(245, 150, 170)",
+					"body": "<p>小康的新主页完成啦！站在巨人的肩膀上!</p>"
 				}
 			]
 		},
@@ -88,46 +88,46 @@
 		"quote": "看看小康的站点吧！",
 		"link": [
 			{
-				"name":"更新日志",
-				"link":"/timeline.html",
+				"name": "更新日志",
+				"link": "/timeline.html",
 				"avatar": "https://files.alexhchu.com/2020/08/25/b924da7e018c1.png",
-				"img":"https://files.alexhchu.com/2020/08/25/b924da7e018c1.png",
+				"img": "https://files.alexhchu.com/2020/08/25/b924da7e018c1.png",
 				"description": "快来看看小康的更新日志吧！",
 				"out": 0
 			},
 			{
-				"name":"网址收藏",
-				"link":"https://dh.xiaokang.me/",
+				"name": "网址收藏",
+				"link": "https://dh.xiaokang.me/",
 				"avatar": "https://files.alexhchu.com/2020/08/25/92033de1eaea7.png",
-				"img":"https://files.alexhchu.com/2020/08/25/92033de1eaea7.png",
+				"img": "https://files.alexhchu.com/2020/08/25/92033de1eaea7.png",
 				"description": "快来看看小康的网址收藏吧！",
 				"out": 1
 			},
 			{
-				"name":"表情速查",
-				"link":"https://dh.xiaokang.me/emotion",
+				"name": "表情速查",
+				"link": "https://dh.xiaokang.me/emotion",
 				"avatar": "https://files.alexhchu.com/2020/08/25/7a7ace125bae2.png",
-				"img":"https://files.alexhchu.com/2020/08/25/7a7ace125bae2.png",
+				"img": "https://files.alexhchu.com/2020/08/25/7a7ace125bae2.png",
 				"description": "快速扩充你的表情库哦！",
 				"out": 1
 			},
 			{
-				"name":"Love",
-				"link":"https://www.antmoe.com/love",
+				"name": "Love",
+				"link": "https://www.antmoe.com/love",
 				"avatar": "https://files.alexhchu.com/2020/08/25/380e3daeefe0b.png",
-				"img":"https://files.alexhchu.com/2020/08/25/380e3daeefe0b.png",
+				"img": "https://files.alexhchu.com/2020/08/25/380e3daeefe0b.png",
 				"description": "快来看看小康的恩爱值吧！",
 				"out": 1
 			}
 		]
 	},
 	"about": {
-		"title":"XiaoKang's Bash",
+		"title": "XiaoKang's Bash",
 		"quote": "想要了解小康么？",
 		"js": ""
 	},
-	"footer":{
-		"text":"Copyright ©️ 2020 Dreamy.TZK<p></p>CDN - <a rel='noopener noreferrer' target='_blank' href='https://www.jsdelivr.com'>jsDelivr</a> | HOST - <a rel='noopener noreferrer' target='_blank' href='https://www.coding.net'>CODING</a>"
+	"footer": {
+		"text": "Copyright ©️ 2020 Dreamy.TZK<p></p>CDN - <a rel='noopener noreferrer' target='_blank' href='https://www.jsdelivr.com'>jsDelivr</a> | HOST - <a rel='noopener noreferrer' target='_blank' href='https://www.coding.net'>CODING</a>"
 	},
 	"global": {
 		"bg": [
@@ -190,8 +190,7 @@
 		]
 	},
 	"count": {
-	"enable": true,
-	"baidu": "189f5f93f988b5553385de571e6a76c0"
-}
-	
+		"enable": true,
+		"baidu": "189f5f93f988b5553385de571e6a76c0"
+	}
 }
