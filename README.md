@@ -18,7 +18,7 @@
 ## 安装步骤
 
 ```bash
-git clone https://github.com/sviptzk/HomePage.git
+git clone https://github.com/Dreamy-TZK/HomePage.git
 cd HomePage
 npm install
 npm run dev
