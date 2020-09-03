@@ -167,7 +167,10 @@
 	&:last-child {
 		margin-bottom: 0;
 	}
-	
+	p{
+		padding-left: 1rem;
+		margin-bottom: 10px;
+	}
 	.label {
 		display: inline-block;
 		position: relative;
