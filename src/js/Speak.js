@@ -6,7 +6,7 @@
 	Speak.prototype = {
 		constructor: Speak,
 		// 版本
-		version: "2020-08-17 v2",
+		version: "2020-09-04 v1",
 		// 当前页数
 		page: 1,
 		// 总页数
@@ -226,6 +226,9 @@
 			rendererMD.image = function (url, title, text) {
 				return `<a style="cursor: zoom-in" data-caption="${text}" data-fancybox="gallery" href=${url}><img class="lazyload" src="${url}" data-src=${url} alt="${text}"></a>`;
 			};
+			rendererMD.table = function (header,body){
+				return `<div class="table-wrapper"><table><thead>${header}</thead><tbody>${body}</tbody></table></div>`
+			}
 			return marked(body, { renderer: rendererMD });
 		},
 		getTime: function (time) {

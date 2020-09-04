@@ -8,8 +8,8 @@
 		"image": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg"
 	},
 	"link": {
-		"cdn_": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@a634aee/www",
-		"cdn": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@a634aee/www"
+		"cdn_": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@222b523/www",
+		"cdn": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@222b523/www"
 	},
 	"index": {
 		"name": "Dreamy.TZK",
@@ -71,7 +71,7 @@
 	"speak": {
 		"quote": "<span>快来看看小康说了啥！</span>",
 		"owner": "antmoe",
-		"repo": "xiaokang.me",
+		"repo": "speak",
 		"per_page": 5,
 		"defaultLabelName": "Deafult",
 		"defaultLabelColor": "#ffc107"
