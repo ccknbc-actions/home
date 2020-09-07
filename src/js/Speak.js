@@ -6,7 +6,7 @@
 	Speak.prototype = {
 		constructor: Speak,
 		// 版本
-		version: "2020-09-04 v1",
+		version: "2020-09-07 v1",
 		// 当前页数
 		page: 1,
 		// 总页数
@@ -158,7 +158,7 @@
 			for (let i in text) {
 				content += `<div class="segment" style="border-color: ${text[i].labels.color};">
 											<div class="label" style="color: ${text[i].labels.color};"><span style="color:${Speak.getFontColor(text[i].labels.color)}">${text[i].labels.name}</span></div>
-											<div class="markdown about">${text[i].body}</div><span style="position: relative;text-align: right;width: 100%;display: inline-block;top: 15px;color: #666;font-size: 10px;">${text[i].created_at}</span></div>`;
+											<div class="markdown about">${text[i].body}</div><span style="position: relative;text-align: right;width: 100%;display: inline-block;top: 10px;right: 10px;color: #666;font-size: 10px;">${text[i].created_at}</span></div>`;
 			}
 			Speak.removeLoad()
 			$(".is-container").append(content);
