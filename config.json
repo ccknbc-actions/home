@@ -69,7 +69,7 @@
 		"customCSS": "<style></style>"
 	},
 	"speak": {
-		"quote": "<span>快来看看小康说了啥！</span>",
+		"quote": "<span>快来看看小康说了啥！完整版Speak请访问：<a href='https://www.antmoe.com/speak' target='_blank'>https://www.antmoe.com/speak</a></span>",
 		"owner": "antmoe",
 		"repo": "speak",
 		"per_page": 5,
