@@ -46,12 +46,17 @@
 				"out": 1,
 				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/blog.svg"
 			},
-
 			{
 				"name": "微信",
 				"link": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/pay/wechat.jpg",
 				"out": 1,
 				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/wechat.svg"
+			},
+			{
+				"name": "开往",
+				"link": "https://travellings.now.sh/",
+				"out": 1,
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/link.svg"
 			}
 		],
 		"main": {
