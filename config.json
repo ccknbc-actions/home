@@ -131,6 +131,35 @@
 		"quote": "想要了解小康么？",
 		"js": ""
 	},
+	"redirect": [
+		{
+			"url": "https://blog.csdn.net/sviptzk",
+			"title": "Go to XiaoKang's CSDN Blog",
+			"time": 2,
+			"desc": "小康的CSDN博客",
+			"name": "欢迎访问小康的CSDN博客哦！",
+			"image": "https://files.alexhchu.com/2020/09/26/c020df45cf803.png",
+			"path": "csdn"
+		},
+		{
+			"url": "https://www.antmoe.com/love/",
+			"title": "lover",
+			"time": 2,
+			"desc": "这里是大田儿和小凤的爱情见证~~~",
+			"name": "lover！",
+			"image": "https://ae01.alicdn.com/kf/H75e7cfe46df641ef8d5fbcda45fac537d.jpg",
+			"path": "tikf"
+		},
+		{
+			"url": "https://laboratory.tzki.cn/",
+			"title": "小康的学习笔记",
+			"time": 2,
+			"desc": "欢迎访问小康的学习笔记。",
+			"name": "小康的学习笔记！",
+			"image": "https://files.alexhchu.com/2020/09/26/1d90699a4505d.png",
+			"path": "study"
+		}
+	],
 	"footer": {
 		"text": "Copyright ©️ 2020 Dreamy.TZK<p></p>CDN - <a rel='noopener noreferrer' target='_blank' href='https://www.jsdelivr.com'>jsDelivr</a> | HOST - <a rel='noopener noreferrer' target='_blank' href='https://www.coding.net'>CODING</a>"
 	},

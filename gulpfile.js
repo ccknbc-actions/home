@@ -10,6 +10,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const connect = require("gulp-connect");
 const pug = require("gulp-pug");
 const sass = require("gulp-sass");
+const rename = require('gulp-rename')
 sass.compiler = require("node-sass");
 
 const config = require("./config.json");
@@ -22,9 +23,9 @@ gulp.task("css", function () {
 	return gulp
 		.src("./src/css/*.scss")
 		.pipe(sass().on("error", sass.logError))
-		.pipe(minifycss({ compatibility: "ie8" }))
-		.pipe(autoprefixer({ overrideBrowserslist: ["last 2 version"] }))
-		.pipe(cssnano({ reduceIdents: false }))
+		.pipe(minifycss({compatibility: "ie8"}))
+		.pipe(autoprefixer({overrideBrowserslist: ["last 2 version"]}))
+		.pipe(cssnano({reduceIdents: false}))
 		.pipe(gulp.dest("./dist/css"));
 });
 
@@ -39,7 +40,7 @@ gulp.task("html", function () {
 gulp.task("js", function () {
 	return gulp
 		.src("./src/js/*.js")
-		.pipe(babel({ presets: ["@babel/preset-env"] }))
+		.pipe(babel({presets: ["@babel/preset-env"]}))
 		.pipe(uglify())
 		.pipe(gulp.dest("./dist/js"));
 });
@@ -47,23 +48,32 @@ gulp.task("js", function () {
 gulp.task("pug", function () {
 	return gulp
 		.src("./src/*.pug")
-		.pipe(pug({ data: config }))
+		.pipe(pug({data: config}))
 		.pipe(gulp.dest("./dist"));
 });
-
+gulp.task("redirect", function (done) {
+	config.redirect.forEach(item => {
+		gulp
+			.src('./src/redirect/redirect.pug')
+			.pipe(pug({data: item}))
+			.pipe(rename('index.html'))
+			.pipe(gulp.dest(`./dist/${item.path}`))
+	})
+	done()
+});
 gulp.task("assets", function () {
 	return gulp.src(["./src/assets/**/*"]).pipe(gulp.dest("./dist/assets"));
 });
 gulp.task("staticHtml", function () {
 	return gulp.src(["./src/*.html"]).pipe(gulp.dest("./dist"));
 });
-
+gulp.task('test', gulp.series('redirect'))
 gulp.task(
 	"build",
-	gulp.series("clean", "assets", "staticHtml", "pug", "css", "js", "html")
+	gulp.series("clean", "assets", "staticHtml", "pug", "redirect","css", "js", "html")
 );
 gulp.task("default", gulp.series("build"));
-
+// gulp.task('default', gulp.series('redirect'))
 gulp.task("watch", function () {
 	gulp.watch("./src/components/*.pug", gulp.parallel("pug"));
 	gulp.watch("./src/pages/*.pug", gulp.parallel("pug"));
