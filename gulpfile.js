@@ -53,9 +53,13 @@ gulp.task("pug", function () {
 });
 gulp.task("redirect", function (done) {
 	config.redirect.forEach(item => {
+		let data = {
+			redirect:item,
+			count:config.count
+		}
 		gulp
 			.src('./src/redirect/redirect.pug')
-			.pipe(pug({data: item}))
+			.pipe(pug({data: data}))
 			.pipe(rename('index.html'))
 			.pipe(gulp.dest(`./dist/${item.path}`))
 	})
