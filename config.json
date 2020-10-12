@@ -158,6 +158,16 @@
 			"name": "小康的学习笔记！",
 			"image": "https://files.alexhchu.com/2020/09/26/1d90699a4505d.png",
 			"path": "study"
+		},
+		{
+			"url": "https://blog.lete114.top/",
+			"title": "Lete乐特",
+			"time": 2,
+			"desc": "我相信我可以，但我一直在路上，所以我有无限的可能！！",
+			"name": "Lete乐特",
+			"image": "https://www.lete114.top/img/avatar.png",
+			"path": "lete",
+			"template":"redirect1"
 		}
 	],
 	"footer": {
