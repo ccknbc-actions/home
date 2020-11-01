@@ -1,0 +1,9 @@
+extends  components/layout
+block content
+	include page/link
+append csses
+	link(rel="stylesheet" href=`${link.cdn}/css/link.css`)
+	title 我的站点 - #{head.title}
+
+block append scripts
+	

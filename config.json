@@ -1,0 +1,194 @@
+{		
+	"head": {
+		"title": "CC康纳百川",
+		"description": "CCKNBC",
+		"keywords": "CC的主页，CC康纳百川的小窝",
+		"favicon": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/favicon.png",
+		"name": "CC的个人主页",
+		"image": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png"
+	},
+	"link": {
+		"cdn_": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@46e35e/www",
+		"cdn": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@46e35e/www"
+	},
+	"index": {
+		"name": "CCKNBC",
+		"description": "一个无趣的人",
+		"link": "/",
+		"menu": [
+			{
+				"name": "首页",
+				"link": "/",
+				"out": 0,
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/home.svg"
+			},
+			{
+				"name": "说说",
+				"link": "/speak",
+				"out": 0,
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/speak.svg"
+			},
+			{
+				"name": "小站",
+				"link": "/link",
+				"out": 0,
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/safari.svg"
+			},
+			{
+				"name": "关于",
+				"link": "/about",
+				"out": 0,
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/about.svg"
+			},
+			{
+				"name": "博客",
+				"link": "https://blog.ccknbc.cc/",
+				"out": 1,
+				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/blog.svg"
+			}
+		],
+		"main": {
+			"avatar": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png",
+			"quote": "世界并不完美，却因此而美丽",
+			"segment": [
+				{
+					"name": "关于",
+					"color": "rgb(245, 150, 170)",
+					"body": "<p>CC的新主页完成啦！站在巨人的肩膀上!</p>"
+				}
+			]
+		},
+		"customJS": "<script></script>",
+		"customCSS": "<style></style>"
+	},
+	"speak": {
+		"quote": "<span>快来看看CC说了啥！</span>",
+		"owner": "ccknbc",
+		"repo": "speak",
+		"per_page": 5,
+		"defaultLabelName": "Deafult",
+		"defaultLabelColor": "#ffc107"
+	},
+	"timeline": {
+		"quote": "<span>快来看看CC的更新日志吧！</span>",
+		"owner": "ccknbc",
+		"repo": "timeline",
+		"per_page": 5,
+		"defaultLabelName": "Deafult",
+		"defaultLabelColor": "#ffc107"
+	},
+	"links": {
+		"quote": "看看CC的站点吧！",
+		"link": [
+			{
+				"name": "更新日志",
+				"link": "/timeline",
+				"avatar": "https://files.alexhchu.com/2020/08/25/b924da7e018c1.png",
+				"img": "https://files.alexhchu.com/2020/08/25/b924da7e018c1.png",
+				"description": "快来看看CC的更新日志吧！",
+				"out": 0
+			},
+			{
+				"name": "网址收藏",
+				"link": "/daohang",
+				"avatar": "https://files.alexhchu.com/2020/08/25/92033de1eaea7.png",
+				"img": "https://files.alexhchu.com/2020/08/25/92033de1eaea7.png",
+				"description": "快来看看CC的网址收藏吧！",
+				"out": 1
+			}
+		]
+	},
+	"about": {
+		"title": "CC's Bash",
+		"quote": "想要了解CC么？",
+		"js": ""
+	},
+	"redirect": [
+		{
+			"url": "https://laboratory.tzki.cn/",
+			"title": "小康的学习笔记",
+			"time": 2,
+			"desc": "欢迎访问小康的学习笔记。",
+			"name": "小康的学习笔记！",
+			"image": "https://files.alexhchu.com/2020/09/26/1d90699a4505d.png",
+			"path": "study"
+		},
+		{
+			"url": "https://www.lete114.top/",
+			"title": "Lete乐特",
+			"time": 2,
+			"desc": "我相信我可以，但我一直在路上，所以我有无限的可能！！",
+			"name": "Lete乐特",
+			"image": "https://www.lete114.top/img/avatar.png",
+			"path": "lete",
+			"template":"redirect1"
+		}
+	],
+	"footer": {
+		"text": "Copyright ©️ 2020 CC康纳百川</br>CCKNBC All Rights Reserved.</br>Host By <b>Coding</b> && CDN By <b>Jsdelivr</b></a>"
+	},
+	"global": {
+		"bg": [
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/001.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/002.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/003.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/004.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/005.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/006.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/007.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/008.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/009.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/010.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/011.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/012.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/013.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/014.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/015.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/016.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/017.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/018.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/019.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/020.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/021.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/022.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/023.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/024.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/025.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/026.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/027.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/028.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/029.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/030.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/031.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/032.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/033.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/034.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/035.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/036.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/037.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/038.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/039.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/040.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/041.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/042.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/043.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/044.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/045.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/046.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/047.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/048.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/049.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/050.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/051.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/052.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/053.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/054.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/055.jpg",
+			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/056.jpg"
+		]
+	},
+	"count": {
+		"enable": false,
+		"baidu": ""
+	}
+}

@@ -1,0 +1,19 @@
+image: node:12-alpine
+
+pages:
+  stage: deploy
+  script:
+    - yarn install
+    - yarn run build
+    - mkdir .public
+    - cp -r * .public
+    - mv dist public
+  artifacts:
+    paths:
+      - public
+  cache:
+    paths:
+      - node_modules
+    key: project
+  only:
+    - master
