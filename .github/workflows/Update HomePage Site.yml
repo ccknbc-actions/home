@@ -39,12 +39,12 @@ jobs:
 
     - name: Generate
       run: |
+        git clone https://github.com/ccknbc/home.git dist
         yarn run build
 
     - name: Deploy
       run: |
         cd ./dist
-        git init
         git config --global user.name "ccknbc"
         git config --global user.email "ccknbc@qq.com"
         git add -A
