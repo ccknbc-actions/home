@@ -22,3 +22,10 @@ script:
   - git commit -m "Update"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
   - git push --force --quiet "https://${CDT_TOKEN}@${CDT_REF}" master:master
+  - curl https://purge.jsdelivr.net/gh/tzki/xiaokang.github.io/css/style.css
+  - curl https://purge.jsdelivr.net/gh/tzki/xiaokang.github.io/css/link.css
+  - curl https://purge.jsdelivr.net/gh/tzki/xiaokang.github.io/css/speaker.css
+  - curl https://purge.jsdelivr.net/gh/tzki/xiaokang.github.io/css/terminal.css
+  - curl https://purge.jsdelivr.net/gh/tzki/xiaokang.github.io/js/about.js
+  - curl https://purge.jsdelivr.net/gh/tzki/xiaokang.github.io/js/console.js
+  - curl https://purge.jsdelivr.net/gh/tzki/xiaokang.github.io/js/Speak.js

@@ -1,15 +1,15 @@
 {
 	"head": {
 		"title": "小康的个人主页",
-		"description": "Dreamy.TZK",
+		"name": "Dreamy.TZK",
 		"keywords": "小康博客,小康,个人博客,python,云原生应用,技术,学习,技术分享,学习笔记,前端,全栈,前端程序员,JavaScript",
 		"favicon": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/favicon.ico",
-		"name": "一个收藏回忆的地方",
+		"description": "一个收藏回忆的地方",
 		"image": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg"
 	},
 	"link": {
-		"cdn_": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@46e35e/www",
-		"cdn": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@46e35e/www"
+		"cdn_": "https://cdn.jsdelivr.net/gh/tzki/xiaokang.github.io",
+		"cdn": "https://cdn.jsdelivr.net/gh/tzki/xiaokang.github.io"
 	},
 	"index": {
 		"name": "Dreamy.TZK",
@@ -151,7 +151,7 @@
 			"path": "TikF"
 		},
 		{
-			"url": "https://laboratory.tzki.cn/",
+			"url": "https://www.tzki.cn/",
 			"title": "小康的学习笔记",
 			"time": 2,
 			"desc": "欢迎访问小康的学习笔记。",
@@ -165,8 +165,18 @@
 			"time": 2,
 			"desc": "我相信我可以，但我一直在路上，所以我有无限的可能！！",
 			"name": "Lete乐特",
-			"image": "https://www.lete114.top/img/avatar.png",
+			"image": "https://rmt.dogedoge.com/fetch/tzk/storage/20201103191956.png",
 			"path": "lete",
+			"template":"redirect1"
+		},
+		{
+			"url": "https://www.lete114.top/",
+			"title": "Lete乐特",
+			"time": 2,
+			"desc": "我相信我可以，但我一直在路上，所以我有无限的可能！！",
+			"name": "Lete乐特",
+			"image": "https://rmt.dogedoge.com/fetch/tzk/storage/20201103191956.png",
+			"path": "lete114",
 			"template":"redirect1"
 		}
 	],
