@@ -1,0 +1,48 @@
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>时钟 - 小康的个人主页</title><style>body {
+background: #0d1320;
+overflow: hidden;
+}
+#timer {
+text-align: center;
+font-size: 56vh;
+font-weight: bold;
+line-height: 56vh;
+color: #e2ecfd;
+}
+#date {
+margin-top: 0px;
+text-align: center;
+font-size: 28vh;
+font-weight: bold;
+color: #e2ecfd;
+}
+.about {
+width: 600px;
+margin: 0 auto;
+padding-top: 20px;
+display: flex;
+align-items: center;
+}
+.about .item {
+color: white;
+flex: 1;
+text-align: center;
+}</style><script>var _hmt = _hmt || [];(function () { var hm = document.createElement("script");hm.src = 'https://hm.baidu.com/hm.js?189f5f93f988b5553385de571e6a76c0';var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script></head><body><div id="date">00月00日</div><div id="timer">06:12</div><script>let showSymbl = true
+function clock() {
+let now = new Date()
+let hour = now.getHours() + ''
+let minute = now.getMinutes() + ''
+let month = (now.getMonth() + 1) + ''
+let day = now.getDate() + ''
+if (showSymbl) {
+document.getElementById('timer').innerHTML = `${hour.padStart(2, '0')}<span>:</span>${minute.padStart(2, '0')}`
+} else {
+document.getElementById('timer').innerHTML = `${hour.padStart(2, '0')}<span style="color:#0d1320">:</span>${minute.padStart(2, '0')}`
+}
+document.getElementById('date').innerHTML = `${month.padStart(2, '0')}月${day.padStart(2, '0')}日`
+showSymbl = !showSymbl
+}
+clock()
+setInterval(() => {
+clock()
+}, 1000)</script></body></html>
