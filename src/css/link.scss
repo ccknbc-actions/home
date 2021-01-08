@@ -1,0 +1,131 @@
+.page {
+	padding-top: 16px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+	.page {
+		background-color: hsla(0, 0%, 100%, 0.7);
+		-webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+	}
+}
+
+.content {
+	display: grid;
+	grid-column-gap: 16px;
+	padding: 16px;
+
+	li {
+		list-style: none;
+		position: relative;
+		margin-bottom: 16px;
+		height: 160px;
+		border-radius: 3px;
+		background-color: hsla(0, 0%, 100%, 0.7);
+		-webkit-box-shadow: 0 14px 38px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(0, 0, 0, 0.06);
+		box-shadow: 0 14px 38px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(0, 0, 0, 0.06);
+		-webkit-transition: all 0.3s ease 0s, -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+		transition: all 0.3s ease 0s, -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+		transition: all 0.3s ease 0s, transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+		transition: all 0.3s ease 0s, transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+		overflow: hidden;
+		cursor: pointer;
+
+		.bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			-o-object-fit: cover;
+			object-fit: cover;
+		}
+
+		.meta {
+			position: relative;
+			padding: 0 16px;
+			width: 100%;
+			height: 100%;
+			text-align: justify;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+			background-color: hsla(0, 0%, 100%, 0.7);
+
+			> div {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: justify;
+				-ms-flex-pack: justify;
+				justify-content: space-between;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+				height: 80%;
+			}
+
+			.avatar {
+				margin: 0;
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+				border: 4px solid hsla(0, 0%, 100%, 0.7);
+				-webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+				box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+				background-color: rgba(0, 0, 0, 0.1);
+				-webkit-transition: -webkit-transform 1s ease-out;
+				transition: -webkit-transform 1s ease-out;
+				transition: transform 1s ease-out;
+				transition: transform 1s ease-out, -webkit-transform 1s ease-out;
+			}
+
+			span {
+				padding: 0 12px;
+				height: 40px;
+				line-height: 40px;
+				border-radius: 3px;
+				background-color: hsla(0, 0%, 100%, 0.8);
+				-webkit-box-shadow: 0 14px 38px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(0, 0, 0, 0.06);
+				box-shadow: 0 14px 38px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(0, 0, 0, 0.06);
+				margin-right: 30px;
+			}
+		}
+
+		p {
+			position: absolute;
+			bottom: 0;
+			padding: 12px 16px;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.content {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.content {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.content li:hover {
+		-webkit-transform: translateY(-4px);
+		transform: translateY(-4px);
+		-webkit-box-shadow: 0 14px 38px rgba(0, 0, 0, 0.14), 0 3px 8px rgba(0, 0, 0, 0.12);
+		box-shadow: 0 14px 38px rgba(0, 0, 0, 0.14), 0 3px 8px rgba(0, 0, 0, 0.12);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.content li:hover .avatar {
+		-webkit-animation-play-state: paused;
+		animation-play-state: paused;
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn);
+	}
+}
