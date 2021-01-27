@@ -197,7 +197,7 @@
 		]
 	},
 	"count": {
-		"enable": true,
-		"baidu": "b0d12b10b9bc8f91fcfc7d82b9553a4a"
+		"enable": false,
+		"baidu": ""
 	}
 }
