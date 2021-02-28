@@ -42,7 +42,7 @@ jobs:
           yarn run build
       - name: 6. 部署页面
         run: |
-          cd ./public
+          cd ./dist
           ls
           git init
           git config --global user.name '${{ secrets.GIT_USER }}' 
