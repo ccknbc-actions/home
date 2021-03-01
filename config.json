@@ -3,13 +3,13 @@
 		"title": "小康的个人主页",
 		"name": "Dreamy.TZK",
 		"keywords": "小康博客,小康,个人博客,python,云原生应用,技术,学习,技术分享,学习笔记,前端,全栈,前端程序员,JavaScript",
-		"favicon": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/favicon.ico",
+		"favicon": "https://cdn.jsdelivr.net/gh/DreamyTZK/HexoStaticFile@latest/Hexo/img/favicon.ico",
 		"description": "一个收藏回忆的地方",
-		"image": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg"
+		"image": "https://cdn.jsdelivr.net/gh/DreamyTZK/HexoStaticFile@latest/avatar.jpg"
 	},
 	"link": {
-		"cdn_": "https://cdn.jsdelivr.net/gh/tzki/xiaokang.github.io",
-		"cdn": "https://cdn.jsdelivr.net/gh/tzki/xiaokang.github.io"
+		"cdn_": "https://cdn.jsdelivr.net/gh/iServes/xiaokang.me",
+		"cdn": "https://cdn.jsdelivr.net/gh/iServes/xiaokang.me"
 	},
 	"index": {
 		"name": "Dreamy.TZK",
@@ -20,43 +20,43 @@
 				"name": "首页",
 				"link": "/",
 				"out": 0,
-				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/home.svg"
+				"img": "https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/home.svg"
 			},
 			{
 				"name": "说说",
 				"link": "/speak.html",
 				"out": 0,
-				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/speak.svg"
+				"img": "https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/speak.svg"
 			},
 			{
 				"name": "小站",
 				"link": "/link.html",
 				"out": 0,
-				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/safari.svg"
+				"img": "https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/safari.svg"
 			},
 			{
 				"name": "关于",
 				"link": "/about.html",
 				"out": 0,
-				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/about.svg"
+				"img": "https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/about.svg"
 			},
 			{
 				"name": "博客",
 				"link": "https://www.antmoe.com/",
 				"out": 1,
-				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/blog.svg"
+				"img": "https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/blog.svg"
 			},
 			{
 				"name": "微信",
-				"link": "https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/pay/wechat.jpg",
+				"link": "https://cdn.jsdelivr.net/gh/DreamyTZK/HexoStaticFile@latest/pay/wechat.jpg",
 				"out": 1,
-				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/wechat.svg"
+				"img": "https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/wechat.svg"
 			},
 			{
 				"name": "开往",
 				"link": "https://travellings.now.sh/",
 				"out": 1,
-				"img": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/link.svg"
+				"img": "https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/link.svg"
 			}
 		],
 		"main": {
@@ -133,7 +133,7 @@
 	},
 	"redirect": [
 		{
-			"url": "https://blog.csdn.net/sviptzk",
+			"url": "https://blog.csdn.net/DreamyTZK",
 			"title": "Go to XiaoKang's CSDN Blog",
 			"time": 2,
 			"desc": "小康的CSDN博客",
@@ -167,7 +167,7 @@
 			"name": "Lete乐特",
 			"image": "https://rmt.dogedoge.com/fetch/tzk/storage/20201103191956.png",
 			"path": "lete",
-			"template":"redirect1"
+			"template": "redirect1"
 		},
 		{
 			"url": "https://www.lete114.top/",
@@ -177,7 +177,7 @@
 			"name": "Lete乐特",
 			"image": "https://rmt.dogedoge.com/fetch/tzk/storage/20201103191956.png",
 			"path": "lete114",
-			"template":"redirect1"
+			"template": "redirect1"
 		}
 	],
 	"footer": {
@@ -185,62 +185,62 @@
 	},
 	"global": {
 		"bg": [
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/001.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/002.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/003.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/004.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/005.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/006.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/007.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/008.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/009.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/010.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/011.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/012.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/013.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/014.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/015.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/016.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/017.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/018.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/019.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/020.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/021.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/022.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/023.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/024.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/025.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/026.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/027.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/028.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/029.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/030.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/031.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/032.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/033.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/034.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/035.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/036.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/037.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/038.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/039.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/040.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/041.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/042.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/043.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/044.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/045.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/046.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/047.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/048.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/049.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/050.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/051.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/052.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/053.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/054.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/055.jpg",
-			"https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@master/www/assets/bg/056.jpg"
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/001.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/002.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/003.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/004.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/005.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/006.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/007.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/008.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/009.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/010.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/011.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/012.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/013.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/014.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/015.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/016.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/017.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/018.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/019.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/020.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/021.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/022.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/023.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/024.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/025.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/026.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/027.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/028.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/029.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/030.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/031.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/032.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/033.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/034.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/035.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/036.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/037.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/038.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/039.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/040.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/041.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/042.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/043.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/044.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/045.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/046.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/047.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/048.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/049.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/050.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/051.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/052.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/053.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/054.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/055.jpg",
+			"https://cdn.jsdelivr.net/gh/DreamyTZK/xiaokang.me@master/www/assets/bg/056.jpg"
 		]
 	},
 	"count": {
