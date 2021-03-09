@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - master
-
+  repository_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,10 +37,19 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           yarn install
+
       - name: 5. 生成页面并压缩
         run: |
           yarn run build
-      - name: 6. 部署页面
+
+      - name: 6. 下载博客的rss订阅
+        if: env.BLOG_RSS
+        run: |
+          wget -p dist ${{ secrets.BLOG_RSS }}
+        env:
+          BLOG_RSS: ${{secrets.BLOG_RSS}}
+
+      - name: 7. 部署页面
         run: |
           cd ./dist
           ls
