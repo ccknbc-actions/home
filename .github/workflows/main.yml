@@ -45,7 +45,7 @@ jobs:
       - name: 6. 下载博客的rss订阅
         if: env.BLOG_RSS
         run: |
-          wget -p dist ${{ secrets.BLOG_RSS }}
+          wget -P dist ${{ secrets.BLOG_RSS }}
         env:
           BLOG_RSS: ${{secrets.BLOG_RSS}}
 
