@@ -54,11 +54,13 @@ jobs:
         git init
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global init.defaultBranch master
+        git branch -m master
         git add -A
         git commit -m "$(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By Github Actions"
-        git push --force --quiet "https://ccknbc:${{ secrets.GH_TOKEN }}@github.com/ccknbc/home.git" main:master
-        git push --force --quiet "https://ccknbc:${{ secrets.GT_TOKEN }}@gitee.com/ccknbc/home.git" main:master
-        git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/home.git" main:master
+        git push --force --quiet "https://ccknbc:${{ secrets.GH_TOKEN }}@github.com/ccknbc/home.git" master:master
+        git push --force --quiet "https://ccknbc:${{ secrets.GT_TOKEN }}@gitee.com/ccknbc/home.git" master:master
+        git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/home.git" master:master
 
     - name: Update Gitee Pages
       uses: yanglbme/gitee-pages-action@main
