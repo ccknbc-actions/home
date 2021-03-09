@@ -8,8 +8,8 @@
 		"image": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png"
 	},
 	"link": {
-		"cdn_": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@46e35e/www",
-		"cdn": "https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@46e35e/www"
+		"cdn_": "https://cdn.jsdelivr.net/gh/iServes/xiaokang.me",
+		"cdn": "https://cdn.jsdelivr.net/gh/iServes/xiaokang.me"
 	},
 	"index": {
 		"name": "CCKNBC",
@@ -54,7 +54,7 @@
 				{
 					"name": "关于",
 					"color": "rgb(245, 150, 170)",
-					"body": "<p>CC的新主页完成啦！站在巨人的肩膀上!</p>"
+					"body": "<p>CC康纳百川的主页</p>"
 				}
 			]
 		},

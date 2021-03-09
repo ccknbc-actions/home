@@ -31,7 +31,7 @@ gulp.task("css", function () {
 
 gulp.task("html", function () {
 	return gulp
-		.src("./dist/*.html")		
+		.src("./dist/*.html")
 		.pipe(htmlclean())
 		.pipe(htmlmin())
 		.pipe(gulp.dest("./dist"));

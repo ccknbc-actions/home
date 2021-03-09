@@ -9,24 +9,26 @@ on:
       name:
         description: '手动触发'
         required: false
+  repository_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    env:
+      TZ: Asia/Shanghai
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@main
       with:
         ref: master
 
     - name: Setup Node
-      uses: actions/setup-node@v2-beta
+      uses: actions/setup-node@main
       with:
         node-version: "12.x"
 
     - name: Catch
-      uses: actions/cache@v2
+      uses: actions/cache@main
       id: cache-dependencies
       with:
         path: node_modules
@@ -41,9 +43,12 @@ jobs:
       run: |
         yarn run build
 
+    - name: 6. 下载博客的rss订阅
+      run: |
+        wget -P dist https://ccknbc.now.sh/atom.xml
+        wget -P dist https://ccknbc.now.sh/rss.xml
+
     - name: Deploy
-      env:
-        TZ: Asia/Shanghai
       run: |
         cd ./dist
         git init
@@ -51,12 +56,12 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add -A
         git commit -m "$(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By Github Actions"
-        git push --force --quiet "https://ccknbc:${{ secrets.GH_TOKEN }}@github.com/ccknbc/home.git" master:master
-        git push --force --quiet "https://ccknbc:${{ secrets.GT_TOKEN }}@gitee.com/ccknbc/home.git" master:master
-        git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/home.git" master:master
+        git push --force --quiet "https://ccknbc:${{ secrets.GH_TOKEN }}@github.com/ccknbc/home.git" main:master
+        git push --force --quiet "https://ccknbc:${{ secrets.GT_TOKEN }}@gitee.com/ccknbc/home.git" main:master
+        git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/home.git" main:master
 
     - name: Update Gitee Pages
-      uses: yanglbme/gitee-pages-action@master
+      uses: yanglbme/gitee-pages-action@main
       with:
           gitee-username: ccknbc
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
