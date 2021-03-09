@@ -18,7 +18,7 @@
     invariant "^2.2.4"
     semver "^5.5.0"
 
-"@babel/core@^7.11.4":
+"@babel/core@7.11.4":
   version "7.11.4"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.4.tgz#4301dfdfafa01eeb97f1896c5501a3f0655d4229"
   integrity sha512-5deljj5HlqRXN+5oJTY7Zs37iH3z3b++KjiKtIsJy1NrjOOVSEaJHEetLBhyu0aQOSNNZ/0IuEAan9GzRuDXHg==
@@ -703,7 +703,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.10.4"
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/preset-env@^7.11.0":
+"@babel/preset-env@7.11.0":
   version "7.11.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.11.0.tgz#860ee38f2ce17ad60480c2021ba9689393efb796"
   integrity sha512-2u1/k7rG/gTh02dylX2kL3S0IJNF+J6bfDSp4DI2Ma8QN6Y9x9pmAax59fsCk6QUQG0yqH47yJWA+u1I1LccAg==
@@ -1255,7 +1255,7 @@ babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-core@^6.26.0, babel-core@^6.26.3:
+babel-core@6.26.3, babel-core@^6.26.0:
   version "6.26.3"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.3.tgz#b2e2f09e342d0f0c88e2f02e067794125e75c207"
   integrity sha512-6jyFLuDmeidKmUEb3NM+/yawG0M2bDZ9Z1qbZP59cyHLz8kYGKYwpJP0UwUKKUiTRNvxfLesJnTedqczP7cTDA==
@@ -1666,7 +1666,7 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-preset-env@^1.7.0:
+babel-preset-env@1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.7.0.tgz#dea79fa4ebeb883cd35dab07e260c1c9c04df77a"
   integrity sha512-9OR2afuKDneX2/q2EurSftUYM0xGu4O2D9adAhVfADDhrYDaxXV0rBbevVYoY9n6nyX1PmQW/0jtpJvUNr9CHg==
@@ -2489,7 +2489,7 @@ defined@^1.0.0:
   resolved "https://registry.yarnpkg.com/defined/-/defined-1.0.0.tgz#c98d9bcef75674188e110969151199e39b1fa693"
   integrity sha1-yY2bzvdWdBiOEQlpFRGZ45sfppM=
 
-del@^5.1.0:
+del@5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/del/-/del-5.1.0.tgz#d9487c94e367410e6eff2925ee58c0c84a75b3a7"
   integrity sha512-wH9xOVHnczo9jN2IW68BabcecVPxacIA3g/7z6vhSU/4stOKQzeCRK0yD0A24WiAAUJmmVpWqrERcTxnLo3AnA==
@@ -3156,7 +3156,7 @@ graceful-fs@^4.0.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6,
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
-gulp-autoprefixer@^7.0.1:
+gulp-autoprefixer@7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/gulp-autoprefixer/-/gulp-autoprefixer-7.0.1.tgz#3c0dc26afc802d317e7560a7f760a0399049075a"
   integrity sha512-QJGEmHw+bEt7FSqvmbAUTxbCuNLJYx4sz3ox9WouYqT/7j5FH5CQ8ZnpL1M7H5npX1bUJa7lUVY1w20jXxhOxg==
@@ -3168,7 +3168,7 @@ gulp-autoprefixer@^7.0.1:
     through2 "^3.0.1"
     vinyl-sourcemaps-apply "^0.2.1"
 
-gulp-babel@^8.0.0:
+gulp-babel@8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/gulp-babel/-/gulp-babel-8.0.0.tgz#e0da96f4f2ec4a88dd3a3030f476e38ab2126d87"
   integrity sha512-oomaIqDXxFkg7lbpBou/gnUkX51/Y/M2ZfSjL2hdqXTAlSWZcgZtd2o0cOH0r/eE8LWD0+Q/PsLsr2DKOoqToQ==
@@ -3178,7 +3178,7 @@ gulp-babel@^8.0.0:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-clean-css@^4.3.0:
+gulp-clean-css@4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/gulp-clean-css/-/gulp-clean-css-4.3.0.tgz#5b1e73f2fca46703eb636014cdd4553cea65146d"
   integrity sha512-mGyeT3qqFXTy61j0zOIciS4MkYziF2U594t2Vs9rUnpkEHqfu6aDITMp8xOvZcvdX61Uz3y1mVERRYmjzQF5fg==
@@ -3212,7 +3212,7 @@ gulp-cli@^2.2.0:
     v8flags "^3.2.0"
     yargs "^7.1.0"
 
-gulp-connect@^5.7.0:
+gulp-connect@5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/gulp-connect/-/gulp-connect-5.7.0.tgz#7e925f5e4c34ebfedf9f318576966e8fe8840d5a"
   integrity sha512-8tRcC6wgXMLakpPw9M7GRJIhxkYdgZsXwn7n56BA2bQYGLR9NOPhMzx7js+qYDy6vhNkbApGKURjAw1FjY4pNA==
@@ -3227,7 +3227,7 @@ gulp-connect@^5.7.0:
     serve-static "^1.13.2"
     tiny-lr "^1.1.1"
 
-gulp-cssnano@^2.1.3:
+gulp-cssnano@2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/gulp-cssnano/-/gulp-cssnano-2.1.3.tgz#02007e2817af09b3688482b430ad7db807aebf72"
   integrity sha512-r8qdX5pTXsBb/IRm9loE8Ijz8UiPW/URMC/bKJe4FPNHRaz4aEx8Bev03L0FYHd/7BSGu/ebmfumAkpGuTdenA==
@@ -3238,7 +3238,7 @@ gulp-cssnano@^2.1.3:
     plugin-error "^1.0.1"
     vinyl-sourcemaps-apply "^0.2.1"
 
-gulp-htmlclean@^2.7.22:
+gulp-htmlclean@2.7.22:
   version "2.7.22"
   resolved "https://registry.yarnpkg.com/gulp-htmlclean/-/gulp-htmlclean-2.7.22.tgz#a7811de8d1221122ae60d660ca0170b65b698dde"
   integrity sha1-p4Ed6NEiESKuYNZgygFwtltpjd4=
@@ -3247,7 +3247,7 @@ gulp-htmlclean@^2.7.22:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
-gulp-htmlmin@^5.0.1:
+gulp-htmlmin@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/gulp-htmlmin/-/gulp-htmlmin-5.0.1.tgz#90fc5e8ad0425a9e86d5d521427184e7276365e7"
   integrity sha512-ASlyDPZOSKjHYUifYV0rf9JPDflN9IRIb8lw2vRqtYMC4ljU3zAmnnaVXwFQ3H+CfXxZSUesZ2x7jrnPJu93jA==
@@ -3256,7 +3256,7 @@ gulp-htmlmin@^5.0.1:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
-gulp-minify@^3.1.0:
+gulp-minify@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/gulp-minify/-/gulp-minify-3.1.0.tgz#9ed9e09f6bfca64e99cd0427bc8e90d44e736770"
   integrity sha512-ixF41aYg+NQikI8hpoHdEclYcQkbGdXQu1CBdHaU7Epg8H6e8d2jWXw1+rBPgYwl/XpKgjHj7NI6gkhoSNSSAg==
@@ -3268,7 +3268,7 @@ gulp-minify@^3.1.0:
     through2 "^2.0.3"
     vinyl "^2.1.0"
 
-gulp-pug@^4.0.1:
+gulp-pug@4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/gulp-pug/-/gulp-pug-4.0.1.tgz#5c5bb38303a5a565add8b200e292b4a076cf2efa"
   integrity sha512-RsayLPwJtKKMub9bbO4VYlMPVnImUPdK8+BjvkiulkorrjWnahTbI3a3Li/7YkD0xs7ap7ePciNiPwweoVEPMQ==
@@ -3285,7 +3285,7 @@ gulp-rename@^2.0.0:
   resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-2.0.0.tgz#9bbc3962b0c0f52fc67cd5eaff6c223ec5b9cf6c"
   integrity sha512-97Vba4KBzbYmR5VBs9mWmK+HwIf5mj+/zioxfZhOKeXtx5ZjBk57KFlePf5nxq9QsTtFl0ejnHE3zTC9MHXqyQ==
 
-gulp-sass@^4.1.0:
+gulp-sass@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/gulp-sass/-/gulp-sass-4.1.0.tgz#486d7443c32d42bf31a6b1573ebbdaa361de7427"
   integrity sha512-xIiwp9nkBLcJDpmYHbEHdoWZv+j+WtYaKD6Zil/67F3nrAaZtWYN5mDwerdo7EvcdBenSAj7Xb2hx2DqURLGdA==
@@ -3299,7 +3299,7 @@ gulp-sass@^4.1.0:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-uglify@^3.0.2:
+gulp-uglify@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/gulp-uglify/-/gulp-uglify-3.0.2.tgz#5f5b2e8337f879ca9dec971feb1b82a5a87850b0"
   integrity sha512-gk1dhB74AkV2kzqPMQBLA3jPoIAPd/nlNzP2XMDSG8XZrqnlCiDGAqC+rZOumzFvB5zOphlFh6yr3lgcAb/OOg==
@@ -3315,7 +3315,7 @@ gulp-uglify@^3.0.2:
     uglify-js "^3.0.5"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp@^4.0.2:
+gulp@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-4.0.2.tgz#543651070fd0f6ab0a0650c6a3e6ff5a7cb09caa"
   integrity sha512-dvEs27SCZt2ibF29xYgmnwwCYZxdxhQ/+LFWlbAW8y7jt68L/65402Lz3+CKy0Ov4rOs+NERmDq7YlZaDqUIfA==
@@ -4322,7 +4322,7 @@ node-releases@^1.1.60:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.60.tgz#6948bdfce8286f0b5d0e5a88e8384e954dfe7084"
   integrity sha512-gsO4vjEdQaTusZAEebUWp2a5d7dF5DYoIpDG7WySnk7BuZDW+GPpHXoXXuYawRBr/9t5q54tirPz79kFIWg4dA==
 
-node-sass@^4.14.1, node-sass@^4.8.3:
+node-sass@4.14.1, node-sass@^4.8.3:
   version "4.14.1"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.14.1.tgz#99c87ec2efb7047ed638fb4c9db7f3a42e2217b5"
   integrity sha512-sjCuOlvGyCJS40R8BscF5vhVlQjNN069NtQ1gSxyK1u9iqvn6tf7O1R4GNowVZfiZUCRt5MmMs1xd+4V/7Yr0g==
