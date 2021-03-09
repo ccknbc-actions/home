@@ -1,0 +1,21 @@
+image: node:12-alpine
+
+pages:
+  stage: deploy
+  script:
+    - yarn install
+    - yarn run build
+    - wget -P dist https://ccknbc.now.sh/atom.xml
+    - wget -P dist https://ccknbc.now.sh/rss.xml
+    - mkdir .public
+    - cp -r * .public
+    - mv dist public
+  artifacts:
+    paths:
+      - public
+  cache:
+    paths:
+      - node_modules
+    key: project
+  only:
+    - master
