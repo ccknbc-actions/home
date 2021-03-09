@@ -34,18 +34,18 @@
 		if (commands[command[0]]) {
 			return commands[command[0]](command);
 		} else {
-			addLine("Command '" + command + "' was not found.Input help to see help doc!");
+			addLine("Command '" + command + "' was not found.Input 'help' to see help doc!");
 		}
 	}
 	function init() {
 		var time = new Date()
-		addLine('Welcome to 小康的个人主页.')
-		addLine('$ cd 小康')
-		addLine('<span class="system">System</span> <span>Thanks for you visitm,let me introduce myself.</span>')
-		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Name:</span><span> XiaoKang</span>`)
+		addLine('Welcome to CC的个人主页.')
+		addLine('$ cd CC')
+		addLine('<span class="system">System</span> <span>Thanks for your visit,let me introduce myself.</span>')
+		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Name:</span><span> CC</span>`)
 		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Sex:</span><span> Male</span>`)
-		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Address:</span><span> Hebei,China</span>`)
-		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Email:</span><span> dreamytzk@outlook.com</span>`)
+		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Address:</span><span> Hubei,China</span>`)
+		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Email:</span><span> cc@ccknbc.cc</span>`)
 		addLine(`<span class="success">Done</span><span> Myself introduction is over!</span>`)
 		addLine(`<span class="info">Tip</span><span> The weather in your city is as follows</span>`)
 		addLine('$ weather')
@@ -55,25 +55,29 @@
 	var commands = {
 		help: function () {
 			addLine("Available command list:");
-			addLine("<span class='success'>lete</span>  // open lete's home");
-			addLine("<span class='success'>blog</span>  // open xiaokang's blog");
-			addLine("<span class='success'>skill</span>  // see xiaokang's skill");
-			addLine("<span class='success'>source</span>  // see my site source");
-		},
-		lete: function () {
-			execCommand('open https://www.lete114.top/')
+			// addLine("<span class='success'>blog</span>   open CC's blog");
+			// addLine("<span class='success'>skill</span>   see CC's skill");
+			addLine("<span class='success'>me</span>   About CC");
+			// addLine("<span class='success'>source</span>   see my site source");
+			addLine("<span class='success'>chat</span>   Chat With CC Online");
 		},
 		blog: function () {
-			execCommand('open https://www.antmoe.com/')
+			execCommand('open /blog')
 		},
 		skill: function () {
-			addLine("<span class='warning'>B</span> :  Python 65/100 ");
-			addLine("<span class='warning'>B</span> :  JavaScript 60/100 ");
-			addLine("<span class='warning'>B</span> :  Node.JS 60/100 ");
+			addLine("<span class='contact'>D</span> :  Python -999/100 ");
+			addLine("<span class='contact'>D</span> :  JavaScript -999/100 ");
+			addLine("<span class='contact'>D</span> :  Node.JS -999/100 ");
 			addLine("<span class='contact'>D</span> :  CSS -999/100 ");
 		},
+		me: function () {
+			execCommand('open https://blog.ccknbc.cc/me/')
+		},
 		source:function (){
-			execCommand('open https://github.com/sviptzk/HomePage')
+			execCommand('open https://github.com/ccknbc-actions/home')
+		},
+		chat: function () {
+			execCommand('open /chat')
 		},
 		weather:function (){
 		return 	$.ajax({
@@ -84,7 +88,8 @@
 					addLine(`<span class='success'>Weater</span>  ${data.data.wea}`);
 					addLine(`<span class='success'>Win</span>  ${data.data.win}`);
 					addLine(`<span class='success'>Tip</span>  ${data.data.air_tips}`);
-					addLine(`*********************`)
+					addLine(`*********************`);
+					addLine(`<span class="info">Tip</span><span> Input 'help' to see more!</span>`)
 				}
 			})
 		},
