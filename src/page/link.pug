@@ -1,0 +1,15 @@
+.page
+	.quote
+		i.iconfont.icon-Artboard1
+		span #{links.quote}
+		i.iconfont.icon-Artboard
+	ul.content
+		for val in links.link
+			a(href=`${val.link}` target=val.out?"_blank":"")
+				li.cursor
+					img.bg(src=`${val.img}` alt="")
+					.meta
+						div
+							img.avatar(src=`${val.avatar}` alt="")
+							span #{val.name}
+						p  #{val.description}
