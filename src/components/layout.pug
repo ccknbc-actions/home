@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+	include head
+	body
+	#bg
+		.backstretch
+	.container
+		header#header
+			a.title.router-link-active(href=`${index.link}`) #{index.name}
+			span.subtitle #{index.description}
+			nav.menu
+				.list-h
+					each val in index.menu
+						a(href=`${val.link}` target=val.out?"_blank":"")
+							img(src=`${val.img}`)
+							p #{val.name}
+		block content
+		include footer
+	include scripts

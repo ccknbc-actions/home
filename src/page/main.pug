@@ -1,0 +1,14 @@
+.page
+	.content
+		.header
+			img(src=`${index.main.avatar}` alt="")
+		.quote
+			i.iconfont.icon-Artboard1
+			span #{index.main.quote}
+			i.iconfont.icon-Artboard
+		for val in index.main.segment
+			.segment(style=`border-color: ${val.color};`)
+				.label(style=`color: ${val.color};`)
+					span #{val.name}
+				.markdown.about
+					!= val.body

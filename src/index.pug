@@ -1,0 +1,7 @@
+extends  components/layout
+block content
+	include page/main
+block append scripts
+	!= index.customJS
+append csses
+	title #{head.title}

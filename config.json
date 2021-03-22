@@ -1,0 +1,203 @@
+{		
+	"head": {
+		"title": "CC康纳百川",
+		"description": "CC的个人主页，CC康纳百川的小窝",
+		"keywords": "CC的个人主页,CC康纳百川的小窝,CC康纳百川，CCKNBC,ccknbc",
+		"favicon": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png",
+		"name": "CC的个人主页",
+		"image": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png"
+	},
+	"link": {
+		"cdn_": "https://cdn.jsdelivr.net/gh/CCKNBC/home@master",
+		"cdn": "https://cdn.jsdelivr.net/gh/CCKNBC/home@master"
+	},
+	"index": {
+		"name": "CCKNBC",
+		"description": "一个无趣的人",
+		"link": "/",
+		"menu": [
+			{
+				"name": "首页",
+				"link": "/",
+				"out": 0,
+				"img": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/home.svg"
+			},
+			{
+				"name": "说说",
+				"link": "/speak",
+				"out": 0,
+				"img": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/speak.svg"
+			},
+			{
+				"name": "小站",
+				"link": "/link",
+				"out": 0,
+				"img": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/safari.svg"
+			},
+			{
+				"name": "关于",
+				"link": "/about",
+				"out": 0,
+				"img": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/about.svg"
+			},
+			{
+				"name": "博客",
+				"link": "https://blog.ccknbc.cc",
+				"out": 1,
+				"img": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/blog.svg"
+			}
+		],
+		"main": {
+			"avatar": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png",
+			"quote": "世界并不完美，却因此而美丽",
+			"segment": [
+				{
+					"name": "关于",
+					"color": "rgb(245, 150, 170)",
+					"body": "<p>CC康纳百川的主页</p>"
+				}
+			]
+		},
+		"customJS": "<script></script>",
+		"customCSS": "<style></style>"
+	},
+	"speak": {
+		"quote": "<span>快来看看CC说了啥！</span>",
+		"owner": "ccknbc",
+		"repo": "speak",
+		"per_page": 5,
+		"defaultLabelName": "Deafult",
+		"defaultLabelColor": "#ffc107"
+	},
+	"timeline": {
+		"quote": "<span>快来看看CC的更新日志吧！</span>",
+		"owner": "ccknbc",
+		"repo": "timeline",
+		"per_page": 5,
+		"defaultLabelName": "Deafult",
+		"defaultLabelColor": "#ffc107"
+	},
+	"links": {
+		"quote": "看看CC的站点吧！",
+		"link": [
+			{
+				"name": "更新日志",
+				"link": "/timeline",
+				"avatar": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/clock.png",
+				"img": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/clock.png",
+				"description": "快来看看CC的更新日志吧！",
+				"out": 0
+			},
+			{
+				"name": "网址收藏",
+				"link": "/site",
+				"avatar": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/broswer.png",
+				"img": "https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/logo/broswer.png",
+				"description": "快来看看CC的网址收藏吧！",
+				"out": 1
+			}
+		]
+	},
+	"about": {
+		"title": "CC's Bash",
+		"quote": "想要了解CC么？",
+		"js": ""
+	},
+	"redirect": [
+		{
+			"url": "https://zykjofficial.top/",
+			"title": "卓越科技",
+			"time": 2,
+			"desc": "Remarkable life,for science and technology.",
+			"name": "卓越科技",
+			"image": "https://cdn.jsdelivr.net/gh/zykjofficial/zykjhome.github.io@master/img/Avatar.png",
+			"path": "zykj"
+		},
+		{
+			"url": "https://daohang.ccknbc.cc/",
+			"title": "CC的导航站",
+			"time": 2,
+			"desc": "CC的导航站",
+			"name": "CC的导航站",
+			"image": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png",
+			"path": "site",
+			"template":"redirect1"
+		},
+		{
+			"url": "https://www.lete114.top/",
+			"title": "Lete乐特",
+			"time": 2,
+			"desc": "我相信我可以，但我一直在路上，所以我有无限的可能！！",
+			"name": "Lete乐特",
+			"image": "https://www.lete114.top/img/avatar.png",
+			"path": "lete"
+		}
+	],
+	"footer": {
+		"text": "<br><div style='margin:0 auto;0;'><a target='_blank' rel='noopener external nofollow noreferrer' href='https://beian.miit.gov.cn/' style='display:inline-block;text-decoration:none;'><img src='https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/icp.png' style='float:left;'/><p style='float:left;margin: 0px 0px 0px 5px;'>鄂ICP备2020019764号-1</p></a></div><div style='width:300px;margin:0 auto; 0;'><a target='_blank' rel='noopener external nofollow noreferrer' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42088102000093' style='display:inline-block;text-decoration:none;'><img src='https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/gongan.png' style='float:left;'/><p style='float:left;margin: 0px 0px 0px 5px;'>鄂公网安备 42088102000093号</p></a></div><div class='live'><span>本站已运行</span><span id='display_live'></span><span class='moe-text'>CC康纳百川 All Rights Reserved.</span><script>function home_live(){window.setTimeout(home_live,1000);var start=new Date('2020-06-04T00:00:00');var now=new Date();var nowYear=now.getFullYear();var timeDiff=(now.getTime()-start.getTime());var msPerMinute=60*1000;var msPerHour=60*msPerMinute;var msPerDay=24*msPerHour;var msPerYear=365*msPerDay;var passYear=Math.floor(timeDiff/msPerYear);var passDay=Math.floor((timeDiff%msPerYear)/msPerDay);var passHour=Math.floor((timeDiff%msPerDay)/60/60/1000);var passMinute=Math.floor((timeDiff%msPerHour)/60/1000);var passSecond=Math.floor((timeDiff%msPerMinute)/1000);display_live.innerHTML=' '+passYear+' 年 '+passDay+' 天 '+passHour+' 小时 '+passMinute+' 分 '+passSecond+' 秒<br>&copy; 2020 - '+nowYear+' '}home_live();</script></div>"
+	},
+	"global": {
+		"bg": [
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/001.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/002.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/003.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/004.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/005.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/006.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/007.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/008.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/009.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/010.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/011.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/012.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/013.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/014.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/015.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/016.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/017.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/018.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/019.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/020.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/021.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/022.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/023.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/024.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/025.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/026.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/027.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/028.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/029.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/030.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/031.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/032.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/033.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/034.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/035.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/036.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/037.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/038.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/039.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/040.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/041.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/042.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/043.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/044.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/045.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/046.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/047.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/048.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/049.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/050.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/051.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/052.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/053.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/054.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/055.jpg",
+			"https://cdn.jsdelivr.net/gh/ccknbc-actions/home@master/assets/bg/056.jpg"
+		]
+	},
+	"count": {
+		"enable": false,
+		"baidu": ""
+	}
+}
