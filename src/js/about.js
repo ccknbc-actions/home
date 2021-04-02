@@ -77,7 +77,7 @@
 			execCommand('open https://github.com/ccknbc-actions/home')
 		},
 		chat: function () {
-			execCommand('open /chat')
+			execCommand('open https://www.tidio.com/talk/rmnlrpff1oci9pui1djmeuvx1mftupfq')
 		},
 		weather:function (){
 		return 	$.ajax({
