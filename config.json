@@ -112,6 +112,16 @@
 			"template":"redirect1"
 		},
 		{
+			"url": "https://www.tidio.com/talk/rmnlrpff1oci9pui1djmeuvx1mftupfq",
+			"title": "联系CC",
+			"time": 2,
+			"desc": "与CC聊天吧",
+			"name": "联系CC",
+			"image": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png",
+			"path": "chat",
+			"template":"redirect1"
+		},
+		{
 			"url": "https://www.lete114.top/",
 			"title": "Lete乐特",
 			"time": 2,
