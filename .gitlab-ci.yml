@@ -5,8 +5,8 @@ pages:
   script:
     - yarn install
     - yarn run build
-    - wget -P dist https://ccknbc.now.sh/atom.xml
-    - wget -P dist https://ccknbc.now.sh/rss.xml
+    - wget -P dist https://blog.ccknbc.cc/atom.xml
+    - wget -P dist https://blog.ccknbc.cc/rss.xml
     - mkdir .public
     - cp -r * .public
     - mv dist public
