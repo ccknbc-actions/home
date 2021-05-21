@@ -108,11 +108,11 @@
 			"desc": "CC的导航站",
 			"name": "CC的导航站",
 			"image": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png",
-			"path": "site",
+			"path": "nav",
 			"template":"redirect1"
 		},
 		{
-			"url": "https://www.tidio.com/talk/rmnlrpff1oci9pui1djmeuvx1mftupfq",
+			"url": "https://www.tidio.com/talk/cc",
 			"title": "联系CC",
 			"time": 2,
 			"desc": "与CC聊天吧",
