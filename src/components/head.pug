@@ -1,0 +1,15 @@
+head
+	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1.0")
+	meta(itemprop="name" content=`${head.name}`)
+	meta(itemprop="image" content=`${head.image}`)
+	meta(name="keywords" content=`${head.keywords}`)
+	meta(name="description" itemprop="description" content=`${head.description}`)
+	link(rel="shortcut icon" href=`${head.favicon}`)
+	link(rel="stylesheet" href=`${link.cdn}/css/style.css`)
+	if count.enable
+		script.
+			var _hmt = _hmt || [];(function () { var hm = document.createElement("script");hm.src = 'https://hm.baidu.com/hm.js?#{count.baidu}';var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();
+	block csses
+	!= index.customCSS
+	

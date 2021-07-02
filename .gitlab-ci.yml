@@ -1,0 +1,21 @@
+image: node:latest
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npm run build
+    - wget -P dist https://blog.ccknbc.cc/atom.xml
+    - wget -P dist https://blog.ccknbc.cc/rss.xml
+    - mkdir .public
+    - cp -r * .public
+    - mv dist public
+  artifacts:
+    paths:
+      - public
+  cache:
+    paths:
+      - node_modules
+    key: project
+  only:
+    - master

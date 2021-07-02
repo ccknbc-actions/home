@@ -1,0 +1,15 @@
+extends  components/layout
+block content
+	include page/speak
+append csses
+	title 说说 - #{head.title}
+	
+block append scripts
+	script.
+		new Speak({
+			per_page: #{speak.per_page},
+			owner: '#{speak.owner}',
+			repo: '#{speak.repo}',
+			defaultLabelName: '#{speak.defaultLabelName}',
+			defaultLabelColor: '#{speak.defaultLabelColor}',
+		});

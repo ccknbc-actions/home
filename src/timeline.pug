@@ -1,0 +1,15 @@
+extends  components/layout
+block content
+	include page/timeline
+append csses
+	title 更新日志 - #{head.title}
+
+block append scripts
+	script.
+		new Speak({
+			per_page: #{timeline.per_page},
+			owner: '#{timeline.owner}',
+			repo: '#{timeline.repo}',
+			defaultLabelName: '#{timeline.defaultLabelName}',
+			defaultLabelColor: '#{timeline.defaultLabelColor}',
+		});

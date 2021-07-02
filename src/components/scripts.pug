@@ -1,0 +1,18 @@
+script(src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js")
+script(src="https://cdn.jsdelivr.net/npm/jquery-backstretch/jquery.backstretch.min.js")
+script(src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox/dist/jquery.fancybox.min.js")
+//- script(data-ad-client='ca-pub-4962482948943075' async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
+script.
+	(function () {
+	if ($(window).width() >= 768) {
+	var bg = '#{global.bg}'.split(',')
+	window.$("#bg").backstretch(bg, {
+	duration: 1e4,
+	alignY: 0,
+	transition: "fade",
+	transitionDuration: 1e3,
+		start:Math.floor(Math.random() * bg.length)
+	})
+	}
+	})()
+block scripts
