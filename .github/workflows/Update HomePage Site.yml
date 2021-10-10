@@ -45,8 +45,8 @@ jobs:
 
     - name: 6. 下载博客的rss订阅
       run: |
-        wget -P dist https://blog.ccknbc.cc/atom.xml
-        wget -P dist https://blog.ccknbc.cc/rss.xml
+        wget -P dist https://ccknbc.vercel.app/atom.xml
+        wget -P dist https://ccknbc.vercel.app/rss.xml
 
     - name: Deploy
       run: |
