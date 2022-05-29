@@ -47,9 +47,10 @@
 		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Address:</span><span> Hubei,China</span>`)
 		addLine(`<span class="time">${time.getFullYear()}-${time.getMonth()+1}-${time.getDate()}</span> <span class="info">Email:</span><span> cc@ccknbc.cc</span>`)
 		addLine(`<span class="success">Done</span><span> Myself introduction is over!</span>`)
-		addLine(`<span class="info">Tip</span><span> The weather in CC's city is as follows</span>`)
-		addLine('$ weathercc')
-		commands.weathercc()
+		commands.weather()
+		// addLine(`<span class="info">Tip</span><span> The weather in CC's city is as follows</span>`)
+		// addLine('$ weathercc')
+		// commands.weathercc()
 	}
 	var commands = {
 		help: function () {
@@ -76,7 +77,7 @@
 			execCommand('open https://github.com/ccknbc-actions/home')
 		},
 		chat: function () {
-			execCommand('open https://www.tidio.com/talk/cc')
+			execCommand('open https://chatting.page/cc')
 		},
 		// weather:function (){
 		// return 	$.ajax({
@@ -107,52 +108,52 @@
 		// 		}
 		// 	})
 		// },
-		weathercc:function (){
-			return 	$.ajax({
-					url:'https://devapi.qweather.com/v7/weather/now?key=081c90ab04874a0fb4cf9ecd269b10b8&location=101190407',
-					success:function (data2){
-						addLine(`*********************`);
-						addLine(`<span class='success'>Weather</span>  ${data2.now.text} ${data2.now.windDir}(${data2.now.wind360}°)${data2.now.windScale}级 ${data2.now.windSpeed}km/h`);
-						addLine(`<span class='success'>Temp</span>  当前温度：${data2.now.temp}℃ 体感温度：${data2.now.feelsLike}℃`);
-						addLine(`<span class='success'>Other</span>  相对湿度：${data2.now.humidity}% 大气压强：${data2.now.pressure}hPa 能见度：${data2.now.vis}km 云量：${data2.now.cloud} 露点温度：${data2.now.dew}℃`);
-						commands.aircc()
-					}
-				})
-			},
-		aircc:function (){
-			return 	$.ajax({
-					url:'https://devapi.qweather.com/v7/air/now?key=081c90ab04874a0fb4cf9ecd269b10b8&location=101190407',
-					success:function (data3){
-						addLine(`<span class='success'>Air</span>  空气质量指数：${data3.now.aqi} 等级：${data3.now.level} 级别：${data3.now.category} 主要污染物：${data3.now.primary}`);
-						addLine(`<span class='success'>Pollution</span>  PM10：${data3.now.pm10} PM2.5：${data3.now.pm2p5} 二氧化氮：${data3.now.no2} 二氧化硫：${data3.now.so2} 一氧化碳：${data3.now.co} 臭氧：${data3.now.o3}`);
-						commands.lifecc()
-					}
-				})
-			},
-		lifecc:function (){
-			return 	$.ajax({
-					url:'https://devapi.qweather.com/v7/indices/1d?type=0&key=081c90ab04874a0fb4cf9ecd269b10b8&location=101190407',
-					success:function (data4){
-						addLine(`<span class='success'>${data4.daily[0].name}</span> ${data4.daily[0].level} ${data4.daily[0].category} ${data4.daily[0].text}`);
-						addLine(`<span class='success'>${data4.daily[1].name}</span> ${data4.daily[1].level} ${data4.daily[1].category} ${data4.daily[1].text}`);
-						addLine(`<span class='success'>${data4.daily[2].name}</span> ${data4.daily[2].level} ${data4.daily[2].category} ${data4.daily[2].text}`);
-						addLine(`<span class='success'>${data4.daily[3].name}</span> ${data4.daily[3].level} ${data4.daily[3].category} ${data4.daily[3].text}`);
-						addLine(`<span class='success'>${data4.daily[4].name}</span> ${data4.daily[4].level} ${data4.daily[4].category} ${data4.daily[4].text}`);
-						addLine(`<span class='success'>${data4.daily[5].name}</span> ${data4.daily[5].level} ${data4.daily[5].category} ${data4.daily[5].text}`);
-						addLine(`<span class='success'>${data4.daily[6].name}</span> ${data4.daily[6].level} ${data4.daily[6].category} ${data4.daily[6].text}`);
-						addLine(`<span class='success'>${data4.daily[7].name}</span> ${data4.daily[7].level} ${data4.daily[7].category} ${data4.daily[7].text}`);
-						addLine(`<span class='success'>${data4.daily[8].name}</span> ${data4.daily[8].level} ${data4.daily[8].category} ${data4.daily[8].text}`);
-						addLine(`<span class='success'>${data4.daily[9].name}</span> ${data4.daily[9].level} ${data4.daily[9].category} ${data4.daily[9].text}`);
-						addLine(`<span class='success'>${data4.daily[10].name}</span> ${data4.daily[10].level} ${data4.daily[10].category} ${data4.daily[10].text}`);
-						addLine(`<span class='success'>${data4.daily[11].name}</span> ${data4.daily[11].level} ${data4.daily[11].category} ${data4.daily[11].text}`);
-						addLine(`<span class='success'>${data4.daily[12].name}</span> ${data4.daily[12].level} ${data4.daily[12].category} ${data4.daily[12].text}`);
-						addLine(`<span class='success'>${data4.daily[13].name}</span> ${data4.daily[13].level} ${data4.daily[13].category} ${data4.daily[13].text}`);
-						addLine(`<span class='success'>${data4.daily[14].name}</span> ${data4.daily[14].level} ${data4.daily[14].category} ${data4.daily[14].text}`);
-						addLine(`<span class='success'>${data4.daily[15].name}</span> ${data4.daily[15].level} ${data4.daily[15].category} ${data4.daily[15].text}`);
-						commands.weather()
-					}
-				})
-			},
+		// weathercc:function (){
+		// 	return 	$.ajax({
+		// 			url:'https://devapi.qweather.com/v7/weather/now?key=081c90ab04874a0fb4cf9ecd269b10b8&location=101190407',
+		// 			success:function (data2){
+		// 				addLine(`*********************`);
+		// 				addLine(`<span class='success'>Weather</span>  ${data2.now.text} ${data2.now.windDir}(${data2.now.wind360}°)${data2.now.windScale}级 ${data2.now.windSpeed}km/h`);
+		// 				addLine(`<span class='success'>Temp</span>  当前温度：${data2.now.temp}℃ 体感温度：${data2.now.feelsLike}℃`);
+		// 				addLine(`<span class='success'>Other</span>  相对湿度：${data2.now.humidity}% 大气压强：${data2.now.pressure}hPa 能见度：${data2.now.vis}km 云量：${data2.now.cloud} 露点温度：${data2.now.dew}℃`);
+		// 				commands.aircc()
+		// 			}
+		// 		})
+		// 	},
+		// aircc:function (){
+		// 	return 	$.ajax({
+		// 			url:'https://devapi.qweather.com/v7/air/now?key=081c90ab04874a0fb4cf9ecd269b10b8&location=101190407',
+		// 			success:function (data3){
+		// 				addLine(`<span class='success'>Air</span>  空气质量指数：${data3.now.aqi} 等级：${data3.now.level} 级别：${data3.now.category} 主要污染物：${data3.now.primary}`);
+		// 				addLine(`<span class='success'>Pollution</span>  PM10：${data3.now.pm10} PM2.5：${data3.now.pm2p5} 二氧化氮：${data3.now.no2} 二氧化硫：${data3.now.so2} 一氧化碳：${data3.now.co} 臭氧：${data3.now.o3}`);
+		// 				commands.lifecc()
+		// 			}
+		// 		})
+		// 	},
+		// lifecc:function (){
+		// 	return 	$.ajax({
+		// 			url:'https://devapi.qweather.com/v7/indices/1d?type=0&key=081c90ab04874a0fb4cf9ecd269b10b8&location=101190407',
+		// 			success:function (data4){
+		// 				addLine(`<span class='success'>${data4.daily[0].name}</span> ${data4.daily[0].level} ${data4.daily[0].category} ${data4.daily[0].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[1].name}</span> ${data4.daily[1].level} ${data4.daily[1].category} ${data4.daily[1].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[2].name}</span> ${data4.daily[2].level} ${data4.daily[2].category} ${data4.daily[2].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[3].name}</span> ${data4.daily[3].level} ${data4.daily[3].category} ${data4.daily[3].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[4].name}</span> ${data4.daily[4].level} ${data4.daily[4].category} ${data4.daily[4].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[5].name}</span> ${data4.daily[5].level} ${data4.daily[5].category} ${data4.daily[5].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[6].name}</span> ${data4.daily[6].level} ${data4.daily[6].category} ${data4.daily[6].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[7].name}</span> ${data4.daily[7].level} ${data4.daily[7].category} ${data4.daily[7].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[8].name}</span> ${data4.daily[8].level} ${data4.daily[8].category} ${data4.daily[8].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[9].name}</span> ${data4.daily[9].level} ${data4.daily[9].category} ${data4.daily[9].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[10].name}</span> ${data4.daily[10].level} ${data4.daily[10].category} ${data4.daily[10].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[11].name}</span> ${data4.daily[11].level} ${data4.daily[11].category} ${data4.daily[11].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[12].name}</span> ${data4.daily[12].level} ${data4.daily[12].category} ${data4.daily[12].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[13].name}</span> ${data4.daily[13].level} ${data4.daily[13].category} ${data4.daily[13].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[14].name}</span> ${data4.daily[14].level} ${data4.daily[14].category} ${data4.daily[14].text}`);
+		// 				addLine(`<span class='success'>${data4.daily[15].name}</span> ${data4.daily[15].level} ${data4.daily[15].category} ${data4.daily[15].text}`);
+		// 				commands.weather()
+		// 			}
+		// 		})
+		// 	},
 		weather:function (){
 			return 	$.ajax({
 					url:'https://api.vvhan.com/api/weather',
