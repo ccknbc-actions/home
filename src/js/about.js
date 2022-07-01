@@ -62,7 +62,7 @@
 			addLine("<span class='success'>chat</span>   Chat With CC Online");
 		},
 		blog: function () {
-			execCommand('open /blog')
+			execCommand('open https://blog.ccknbc.cc')
 		},
 		skill: function () {
 			addLine("<span class='contact'>D</span> :  Python -999/100 ");
