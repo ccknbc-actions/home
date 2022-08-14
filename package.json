@@ -1,7 +1,7 @@
 {
 	"name": "CCHomePage",
 	"version": "latest",
-	"description": "XiaoKang's Home Page",
+	"description": "CC's Home Page",
 	"main": "index.js",
 	"author": "Dreamy.TZK",
 	"license": "MIT",
@@ -15,7 +15,7 @@
 		"@babel/preset-env": "7.18.10",
 		"babel-core": "6.26.3",
 		"babel-preset-env": "1.7.0",
-		"del": "7.0.0",
+		"del": "6.1.1",
 		"gulp": "4.0.2",
 		"gulp-autoprefixer": "8.0.0",
 		"gulp-babel": "8.0.0",
