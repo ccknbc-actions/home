@@ -32,6 +32,6 @@
 		"sass": "1.54.4"
 	},
 	"dependencies": {
-		"gulp-rename": "2.0.0"
+		"gulp-rename": "2.1.0"
 	}
 }
